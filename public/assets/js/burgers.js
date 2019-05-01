@@ -4,13 +4,13 @@ $(function() {
       var fresh = true;
   
       var devouredState = {
-        devoured: fresh
+      devoured: fresh
       };
   
       // Send the PUT request.
       $.ajax("/api/burgers/" + id, {
         type: "PUT",
-        data: devouredState
+        data:devouredState
       }).then(
         function() {
           // Reload the page to get the updated list
@@ -40,3 +40,4 @@ $(function() {
       );
     });
   });
+  

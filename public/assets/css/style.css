@@ -1,0 +1,23 @@
+.title{
+    text-align: center;
+}
+
+body{
+    margin: auto;
+    width: 960px;
+background: black;
+color: floralwhite;
+font-family: 'Fredericka the Great', cursive;
+font-size: 16pt;
+}
+
+.addBurger{
+    text-align: center;
+}
+
+.burgerImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
